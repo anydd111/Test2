@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/anydd111/Test2.git", :tag => "#{s.version}" }
 
-  s.source_files = 'GitTest/*.{h,m}'
+  s.source_files = 'GitTest', 'GitTest/*.{h,m}'
   s.frameworks = 'QuartzCore','UIKit'
 
 end
