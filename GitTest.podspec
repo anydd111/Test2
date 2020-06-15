@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                       Developer 测试
                     DESC
 
-  s.homepage     = "https://github.com/anydd111/GitTest.git/"
+  s.homepage     = "https://github.com/anydd111/Test2.git/"
 
   s.license      = "GPL"
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "ZY" => "zhao123_321@163com" }
 
-  s.source       = { :git => "https://github.com/anydd111/GitTest.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/anydd111/Test2.git", :tag => "#{s.version}" }
 
   s.source_files = 'GitTest/*.{h,m}'
   s.frameworks = 'QuartzCore','UIKit'
